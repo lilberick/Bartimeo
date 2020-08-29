@@ -55,7 +55,7 @@
 		```
 3. Script para usar el gpio27
 	1. Contenido del script: `bartimeo.sh`
-		```
+		```bash
 		#!/bin/bash
 		i=0
 		while true; do
@@ -63,6 +63,7 @@
 				raspistill -o $i.jpg
 				tesseract $i.jpg texto$i -l spa
 				gtts-cli -l 'es' -f texto$i.txt -o $i.mp3
+				mplayer $i.mp3
 				i=$((i+1))
 				echo listo papi
 			fi
