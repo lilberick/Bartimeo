@@ -1,30 +1,5 @@
 # Leer libro: Detectar texto de un libro y escucharlo
-1. Hardware
-	1. Componentes
-		1. [1 Raspberry Pi](https://www.raspberrypi.org/products/raspberry-pi-2-model-b/ "Dale click para que veas el producto")   
-			![](.img/1.jpg)   
-		2. [1 Picamera](https://www.raspberrypi.org/products/camera-module-v2/ "Dale click para que veas el producto")   
-			![](.img/2.jpg)   
-		3. 1 pulsador    
-			![](.img/3.jpg)   
-		4. 1 resistor 330 ohm (1/4 W)   
-			![](.img/3b.png)   
-	2. Conexiones  
-		1. Conectamos la picamera a la Raspberry Pi   
-			![](.img/3a.png)   
-		2. Conectamos un pulsador en el gpio27   
-			![](.img/3c.png)   
-2. Instalación en la Raspberry Pi
-	1. Habilitar la picamera
-		```
-		$ sudo raspi-config
-		```
-		![](.img/4.png)  
-		![](.img/5.png)  
-		![](.img/6.png)  
-		![](.img/7.png)  
-		![](.img/8.png)  
-		![](.img/9.png)  
+1. Instalación en la Raspberry Pi
 	1. tesseract-ocr
 		```
 		$ sudo apt install tesseract-ocr
@@ -53,7 +28,7 @@
 		```
 		$ sudo apt install mplayer
 		```
-3. Script para usar el gpio27
+2. Script para usar el gpio27
 	1. Contenido del script: `bartimeo.sh`
 		```bash
 		#!/bin/bash
@@ -77,11 +52,11 @@
 		```
 		$ ./bartimeo.sh
 		```
-4. Como usarlo
-	1. Enfocamos la cámara sobre el texto del libro  
-		![](.img/10.jpg)
+3. Como usarlo
+	1. Enfocamos la cámara sobre el texto del libro   
+		![](.img/1.jpg)
 	2. Presionamos el pulsador   
 	3. De la imagen podremos extraer el texto en un archivo .txt   
-		![](.img/11.png)
+		![](.img/2.png)
 	4. Se generará un archivo .mp3 y se ejecutará, por tanto podremos escucharlo   
 		[Click para escuchar el audio](test/4.mp3)

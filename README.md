@@ -9,6 +9,31 @@ Herramientas que pueden ayudar a una persona ciega
 	2. Detectar si es falso o verdadero
 ## Posible ubicación de la cámara   
 ![](.img/3.png)
+## Hardware
+1. Componentes
+	1. [1 Raspberry Pi](https://www.raspberrypi.org/products/raspberry-pi-2-model-b/ "Dale click para que veas el producto")   
+		![](.img/4.jpg)   
+	2. [1 Picamera](https://www.raspberrypi.org/products/camera-module-v2/ "Dale click para que veas el producto")   
+		![](.img/5.jpg)   
+	3. 1 pulsador    
+		![](.img/6.jpg)   
+	4. 1 resistor 330 ohm (1/4 W)   
+		![](.img/7.png)   
+2. Conexiones  
+	1. Conectamos la picamera a la Raspberry Pi   
+		![](.img/8.png)   
+	2. Conectamos un pulsador en el gpio27   
+		![](.img/9.png)   
+3. Habilitar la picamera
+	```
+	$ sudo raspi-config
+	```
+	![](.img/10.png)  
+	![](.img/11.png)  
+	![](.img/12.png)  
+	![](.img/13.png)  
+	![](.img/14.png)  
+	![](.img/15.png)  
 ## Links relacionados
 * [Text Detection with OpenCV in Python](https://www.youtube.com/watch?v=6DjFscX4I_c)
 * [COCO-Text: Dataset for Text Detection and Recognition](https://vision.cornell.edu/se3/coco-text-2/)
