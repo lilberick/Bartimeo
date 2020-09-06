@@ -1,5 +1,5 @@
 # Bartimeo
-Herramientas que pueden ayudar a una persona ciega  
+Herramientas de apoyo en visión artificial    
 ![](.img/1.png)  
 ## Posibles skills 
 1. Leer libros: Detectar texto por medio de una cámara y escucharlo.
@@ -7,6 +7,7 @@ Herramientas que pueden ayudar a una persona ciega
 3. Diferenciar billetes
 	1. Valor del billete
 	2. Detectar si es falso o verdadero
+4. Reconocer personas conocidas
 ## Posible ubicación de la cámara   
 ![](.img/3.png)
 ## Hardware
