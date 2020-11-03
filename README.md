@@ -42,3 +42,5 @@ Herramientas de apoyo en visión artificial
 * [ICDAR 2019 Robust Reading competitions](https://rrc.cvc.uab.es/)
 * [Detectron2](https://colab.research.google.com/drive/16jcaJoc6bCFAQ96jDe2HwtXj7BMD_-m5)
 * [Google Lookout-Android App For The Visually Impaired-The Blind Life](https://www.youtube.com/watch?v=l33FeITNCsw)
+* [Smart Glasses for visually impaired people](https://www.youtube.com/watch?v=oWvlYXsNRqM)
+* [LENTES DE LECTURA PARA PERSONAS CON BAJA O NULA CAPACIDAD VISUAL](https://ocapunay.blogspot.com/?view=classic)
